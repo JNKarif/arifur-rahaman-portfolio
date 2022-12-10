@@ -17,7 +17,7 @@ const Banner = () => {
             or large projects.<br/> However, if you have any other requests <br/> or
             questions,  don't hesitate to contact me <br/>using below form either. </p>
       
-      <Link to='/contact'>
+      <Link to='/contactme'>
 
       <button className="btn btn-outline"> Contact me</button>
       </Link>

@@ -7,7 +7,7 @@ const Contact = () => {
 //         event.preventDefault()
 //         const form= event.target
 // const name= form.name.value;
-// const email= form.email.value;
+// const email= form.email.value; 
 // const number= form.number.value;
 //         console.log(name, email, number)
 //     }
