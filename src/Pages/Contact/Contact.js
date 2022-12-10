@@ -1,16 +1,16 @@
 import React from 'react';
-import contactImage from '../../Assets/Contact_image/contact-form-best-practices.png'
+// import contactImage from '../../Assets/Contact_image/contact-form-best-practices.png'
 
 const Contact = () => {
 
-    const handleSubmit=event=>{
-        event.preventDefault()
-        const form= event.target
-const name= form.name.value;
-const email= form.email.value;
-const number= form.number.value;
-        console.log(name, email, number)
-    }
+//     const handleSubmit=event=>{
+//         event.preventDefault()
+//         const form= event.target
+// const name= form.name.value;
+// const email= form.email.value;
+// const number= form.number.value;
+//         console.log(name, email, number)
+//     }
 
     return (
         <div>
@@ -20,7 +20,9 @@ const number= form.number.value;
       <img className='w-1/2' src={contactImage} alt=""/>
       
     </div> */}
-    <form onSubmit={handleSubmit}>
+    {/* <form onSubmit={handleSubmit}> */}
+    <form action='/contact' name="contact" method="post">
+    <input type="hidden" name="form-name" value="contact" />
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <div className="card-body ">
       <h1 className="text-xl font-bold">Please provide your details !</h1>
