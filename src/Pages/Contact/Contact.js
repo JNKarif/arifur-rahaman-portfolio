@@ -21,7 +21,7 @@ const Contact = () => {
       
     </div> */}
     {/* <form onSubmit={handleSubmit}> */}
-    <form action='/contacts' name="contact" method="post">
+    <form action='/contact' name="contact" method="post">
     <input type="hidden" name="form-name" value="contact" />
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <div className="card-body ">
