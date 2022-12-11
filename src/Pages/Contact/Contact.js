@@ -14,7 +14,7 @@ const Contact = () => {
 
     return (
         <div>
-           <div className="hero min-h-screen  bg-base-200">
+           <div className="hero min-h-screen   bg-gradient-to-r from-blue-200  to-base-300">
   <div className="hero-content flex-col  lg:flex-row-reverse">
     {/* <div className="text-center hidden lg:block lg:text-left">
       <img className='w-1/2' src={contactImage} alt=""/>
@@ -38,12 +38,7 @@ const Contact = () => {
           </label>
           <input name='email' type="email" placeholder="email" className="input input-bordered" />
         </div>
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Contact Number</span>
-          </label>
-          <input name='number' type="text" placeholder="contact number" className="input input-bordered" />
-        </div>
+       
         <div className="form-control">
           <label className="label">
             <span className="label-text">Message</span>
