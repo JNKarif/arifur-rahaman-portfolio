@@ -8,15 +8,15 @@ import arifPic from '../../../Assets/Images/Arif_HD_Banner.png'
 const Banner = () => {
     return (
         <div className=''>
-           <div className="hero  overflow-auto  px-5  bg-gradient-to-r from-pink-300 to-purple-600">
+           <div className="hero    px-5  bg-gradient-to-r from-pink-300 to-purple-600">
   <div className="hero-content flex-col lg:flex-row-reverse">
 
 
     
-    <img src={arifPic} className="max-w-xl " alt=''/>
+    <img src={arifPic} className=" overflow-x-auto" alt=''/>
     <div>
       <h1 className="lg:text-5xl sm:text-2xl font-bold">Frontend Developer</h1>
-      <p className="py-6 sm:mx-auto text-white font-bold">I am interested in freelance opportunities, <br/>onsite or remote job -  especially on ambitious
+      <p className="py-6  overflow-x-auto text-white font-bold">I am interested in freelance opportunities, <br/>onsite or remote job -  especially on ambitious
             or large projects.<br/> However, if you have any other requests <br/> or
             questions,  don't hesitate to contact me <br/>using below form either. </p>
       
