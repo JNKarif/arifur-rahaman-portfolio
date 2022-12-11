@@ -1,5 +1,8 @@
 // import React, { useState } from 'react';
 // import Project from './Project';
+import bikehub from '../../../Assets/projects/BIKE.png'
+import eduhub from '../../../Assets/projects/Eduhub.png'
+import legal from '../../../Assets/projects/legal.png'
 
 const Projects = () => {
     // const [projects, setProjects]=useState(null)
@@ -9,7 +12,7 @@ const Projects = () => {
 
             <div className="grid lg:grid-cols-3 md:grid-cols-2  mb-4">
             <div className="card w-96 bg-base-100 shadow-xl image-full">
-  {/* <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure> */}
+  <figure><img src={bikehub} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">BikeHub</h2>
     <p>Used bike buy/sell website.</p> 
@@ -22,7 +25,7 @@ const Projects = () => {
 
 
 <div className="card w-96 bg-base-100 shadow-xl image-full">
-  {/* <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure> */}
+  <figure><img src={eduhub} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">EduHub</h2>
     <p>Educational courses website </p>
@@ -36,7 +39,7 @@ const Projects = () => {
 
 
 <div className="card w-96 bg-base-100 shadow-xl image-full">
-  {/* <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure> */}
+  <figure><img src={legal} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">Mr. Legal Aid</h2>
     <p>Legal service review website </p>
