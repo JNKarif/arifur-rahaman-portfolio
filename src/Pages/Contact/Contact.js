@@ -30,13 +30,13 @@ const Contact = () => {
           <label className="label">
             <span className="label-text">Full Name</span>
           </label>
-          <input name='name' type="text" placeholder="full name" className="input input-bordered" />
+          <input name='name' type="text" placeholder="full name" required className="input input-bordered" />
         </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input name='email' type="email" placeholder="email" className="input input-bordered" />
+          <input name='email' type="email" placeholder="email" required className="input input-bordered" />
         </div>
        
         <div className="form-control">
