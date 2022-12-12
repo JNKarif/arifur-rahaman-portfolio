@@ -15,10 +15,10 @@ const Projects = () => {
 
 
     return (
-        <div className="px-4 overflow-x-auto bg-gradient-to-r from-pink-300 to-purple-600">
+        <div className="px-4 overflow-x-auto bg-gradient-to-r from-pink-300 to-purple-600 p-20">
             <h2 className="text-4xl  text-center font-bold">My Projects</h2>
 
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 py-4 ">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 py-4 ">
 
 
             <div className="card card-compact w-96 bg-base-100 shadow-xl">
