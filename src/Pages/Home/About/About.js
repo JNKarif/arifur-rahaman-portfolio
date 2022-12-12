@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className='bg-gradient-to-r from-pink-300 to-purple-600 p-20 '>
-      <div className="grid lg:grid-cols-2 bg-gradient-to-r from-pink-300 to-purple-600   ">
+      <div className="grid lg:grid-cols-2 bg-gradient-to-r from-pink-300 to-purple-600 p-5  ">
         {/* <figure><img className='mask mask-triangle-4' src="https://placeimg.com/400/400/arch" alt="Album"/></figure> */}
         
         <div className=" ">
