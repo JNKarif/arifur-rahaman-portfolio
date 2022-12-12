@@ -8,7 +8,7 @@ import Home from "../../Pages/Home/Home/Home"
 import ProjectA from "../../Pages/Home/Projects/ProjectA"
 import ProjectB from "../../Pages/Home/Projects/ProjectB"
 import ProjectC from "../../Pages/Home/Projects/ProjectC"
-import Projects from "../../Pages/Home/Projects/Projects"
+
 
 
 const router = createBrowserRouter([
