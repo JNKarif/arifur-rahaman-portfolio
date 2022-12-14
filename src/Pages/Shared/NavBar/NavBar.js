@@ -7,7 +7,7 @@ const NavBar = () => {
 
 
 
-    <div>
+    <div className=''>
 
       <div className="navbar bg-gradient-to-r from-pink-100 to-purple-300">
         <div className="navbar-start">

@@ -5,7 +5,7 @@ import legal3 from '../../../Assets/projects/legal3.png'
 const ProjectC = () => {
     return (
         <div className='bg-gradient-to-r from-pink-300 to-purple-600'>
-            <p className='text-3xl py-5 text-center '>Mr.Legal Aid-Service review website </p>
+            <p className='text-3xl py-5 text-center font-extrabold'>Mr.Legal Aid-Service review website </p>
 
             <div className='flex justify-center py-5 bg-gradient-to-r from-pink-300 to-purple-600'>
 
@@ -36,19 +36,17 @@ const ProjectC = () => {
             </div>
 
             <div className='px-10 pb-10'>
+            <p className='text-2xl text-center font-extrabold'>Project summary</p>
                 <ol className='text-xl text-center font-bold'>
-                    <li>
-                        
-                    •	Summary: On this website, the service user can give, edit and delete reviews
-
-
-
-
-
-                    </li>
+                   <li>•On this website, user can buy any legal service</li>
+                    <li>                  
+                    •  The service user can give, edit and delete reviews
+                   </li>
                     <li> •		Functionality: JavaScript, React, Tailwind CSS, daisyUI, Vercel, JWT, Context API, React router dom, MongoDB</li>
                     
-                    <li>•	Project Duration- November 2022 | <a href="https://assignment-11-45242.web.app/">Live-Link</a>  | <a href="https://github.com/JNKarif/Mr.-Legal-Aid-Client">Client-side-code</a>  | <a href="https://github.com/JNKarif/Mr.-Legal-Aid-Server">Server-side-codes</a>  </li>
+                    <li>•	Project Duration- November 2022 to present
+                        </li>
+                        <li>• <a href="https://assignment-11-45242.web.app/">Live-Link</a>  | <a href="https://github.com/JNKarif/Mr.-Legal-Aid-Client">Client-side-code</a>  | <a href="https://github.com/JNKarif/Mr.-Legal-Aid-Server">Server-side-codes</a>  </li>
                 </ol>
             </div>
         </div>

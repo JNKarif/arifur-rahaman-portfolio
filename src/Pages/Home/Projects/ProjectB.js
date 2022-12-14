@@ -7,7 +7,7 @@ import edu3 from '../../../Assets/projects/eduhub3.png'
 const ProjectB = () => {
     return (
         <div className=' bg-gradient-to-r from-pink-300 to-purple-600'>
-          <p className='text-3xl py-5 text-center '>EduHub-Educational courses website
+          <p className='text-3xl py-5 text-center font-extrabold'>EduHub-Educational courses website
 </p>     
        
         <div className='flex justify-center py-5 bg-gradient-to-r from-pink-300 to-purple-600'>
@@ -39,19 +39,15 @@ const ProjectB = () => {
         </div>
 
         <div className='px-10 pb-10'>
+          <p className='text-2xl text-center font-extrabold'>Project summary</p>
                 <ol className='text-xl text-center font-bold'>
                     <li>
-                        
-                    •	Summary: Different kinds of courses can be purchased on this website. Normal users can audit the websites but for premium access, one must be a registered member.
-
-
-
-
-
+                    •	 Different kinds of courses can be purchased on this website.
                     </li>
+                    <li> • Normal users can audit the websites but for premium access, one must be a registered member. </li>
                     <li> •	Functionality: JavaScript, React, Bootstrap, React Bootstrap, Vercel, React icon, Context API, React router dom, Github Login, Google login.</li>
-                    
-                    <li>•	Project Duration- October 2022 | <a href="https://eduhub-6899a.web.app/">Live-Link</a>  | <a href="https://github.com/JNKarif/edu-hub-client">Client-side-code</a>  | <a href="https://github.com/JNKarif/edu-hub-server">Server-side-codes</a>  </li>
+                    <li> •	Project Duration- October 2022 </li>
+                    <li>• <a href="https://eduhub-6899a.web.app/">Live-Link</a>  | <a href="https://github.com/JNKarif/edu-hub-client">Client-side-code</a>  | <a href="https://github.com/JNKarif/edu-hub-server">Server-side-codes</a>  </li>
                 </ol>
             </div>
 

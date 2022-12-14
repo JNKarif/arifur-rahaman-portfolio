@@ -6,8 +6,8 @@ import NavBar from '../Pages/Shared/NavBar/NavBar';
 const Main = () => {
     return (
         <div>
-            <NavBar></NavBar>
-            <Outlet></Outlet>
+            <NavBar className="sticky top-0 z-50"></NavBar>
+            <Outlet className="relative"></Outlet>
             <Footer></Footer>
         </div>
     );
