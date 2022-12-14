@@ -15,7 +15,7 @@ const Skills = () => {
                 <div className=''>
                     <p className='text-3xl font-bold mb-4 '>Skills</p>
 
-                    <div className='grid grid-cols-2 gap-5'>
+                    <div className='grid lg:grid-cols-2 gap-5'>
 
                         <div className="card w-64 h-36 rounded-xl shadow-xl  glass">
                             <figure><img src={mern} alt="Shoes" /></figure>
