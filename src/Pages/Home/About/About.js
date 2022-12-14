@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='bg-gradient-to-r from-pink-300 to-purple-600 p-20 '>
       <div className="grid lg:grid-cols-2 bg-gradient-to-r from-pink-300 to-purple-600 p-5  ">
-        {/* <figure><img className='mask mask-triangle-4' src="https://placeimg.com/400/400/arch" alt="Album"/></figure> */}
+        
         
         <div className=" ">
           <h2 className="text-3xl font-bold">About Me</h2>
@@ -34,7 +34,7 @@ const About = () => {
   <p className='text-3xl font-bold '>Skills</p>
               <p className='mt-1 text-white font-bold'>
                 Expertise: HTML5, CSS3, Tailwind CSS, Bootstrap <br /> Comfortable: JavaScript, React, MongoDB,
-                Familiar: React Native, Redux, JWT, Node.js, and Express.js <br /> Tools: Github, Netlify, Firebase, VS Code
+                Familiar: React Native,  JWT, Node.js, and Express.js <br /> Tools: Github, Netlify, Firebase, VS Code
               </p>
   
   </div>

@@ -9,11 +9,11 @@ const Skills = () => {
     // const {mern}= logos;
 
     return (
-        <div className='grid lg:grid-cols-2 gap-5 bg-gradient-to-r from-pink-300 to-purple-600 p-20 '>
+        <div className='grid lg:grid-cols-2  bg-gradient-to-r from-pink-300 to-purple-600 p-20 '>
 
 
 
-            <div className='p-10'>
+            <div className='p-5'>
 
                 <p className='text-3xl font-bold mb-4 '>Skills</p>
 
