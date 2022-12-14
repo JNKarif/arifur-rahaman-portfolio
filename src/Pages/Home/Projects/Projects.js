@@ -15,13 +15,13 @@ const Projects = () => {
 
 
     return (
-        <div className="py-10 overflow-x-auto bg-gradient-to-r from-pink-300 to-purple-600 ">
-            <h2 className="text-4xl  text-center font-bold">My Projects</h2>
+        <div className="overflow-x-auto bg-gradient-to-r from-pink-300 to-purple-600 p-5">
+            <h2 className="text-4xl  text-center font-bold mb-4">My Projects</h2>
 
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 py-4 gap-5 ml-8 ">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 lg:p-10">
 
 
-            <div className="card card-compact w-96 bg-base-100 shadow-xl ">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl  ">
   <figure><img src={bikehub} alt="Shoes" /></figure>
   <div className="card-body bg-gradient-to-r from-pink-300 to-purple-600">
     <h2 className="card-title">BikeHub</h2>
@@ -54,7 +54,7 @@ const Projects = () => {
 
 
 
-<div className="card card-compact w-96 bg-base-100 shadow-xl">
+<div className="card card-compact w-96 bg-base-100 shadow-xl ">
   <figure><img src={eduhub} alt="Shoes" /></figure>
   <div className="card-body bg-gradient-to-r from-pink-300 to-purple-600">
     <h2 className="card-title">EduHub</h2>
